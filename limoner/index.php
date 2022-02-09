@@ -1,3 +1,5 @@
+
+<?php include_once '04templates/header.php';?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -16,13 +18,15 @@
 		<div class="nav row g-0 justify-content-between rounded-top">
 			<!-- Logotipo -->
 			<div class="logo col-12 col-lg-auto d-flex align-items-center justify-content-center ps-4">
-				<h2 class="fw-bold text-uppercase mb-0">said sotelo</h2>
+				<span  translate ="no" class="fw-bold text-uppercase mb-0" >ing. said jesus sotelo</span>
 				<div class="icono">
 					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
 						<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
 					</svg>
 				</div>
-				<p class="mb-0">Desarrollador Web</p>
+				<p class="mb-0">Desarrollador Web   Tel: 7771824702</p>
+
+				
 			</div>
 
 			<!-- Enlaces -->
@@ -66,12 +70,12 @@
 			<div class="col">
 				<div class="carousel slide" data-bs-ride="carousel" id="slider">
 					<div class="carousel-inner">
-						<div class="carousel-item active">
+					<div class="carousel-item active">
 							<img class="d-block w-100" src="./img/imglimoner.jpg" alt="">
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="./img/slide2.jpg" alt="">
-						</div>
+						<a href="/camaras" ><img class="d-block w-100" src="./img/slide2.jpg" alt="">
+						</div></a>
 						<div class="carousel-item">
 							<img class="d-block w-100" src="./img/slide3.jpg" alt="">
 						</div>
@@ -112,7 +116,7 @@
 			</div>
 		</div>	
 	</header>
-
+	
 	<main>
 		<div class="container">
 			<!-- Portafolio -->
@@ -122,15 +126,15 @@
 					<div class="row galeria">
 						<!-- Imagen #1 -->
 						<div class="contenedor-imagen mb-4 col-6 col-lg-4">
-							<a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
-								<img src="img/img-1.jpg" class="d-block w-100" alt="">
+							<a href="camaras">
+								<img src="img/camaras1.JPG" class="d-block w-100" alt="">
 							</a>
 						</div>
 
 						<!-- Imagen #2 -->
 						<div class="contenedor-imagen mb-4 col-12 col-lg-8">
 							<a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
-								<img src="img/img-2.jpg" class="d-block w-100" alt="">
+								<img src="img/slide3.jpg" class="d-block w-100" alt="">
 							</a>
 						</div>
 
@@ -186,12 +190,12 @@
 					</div>
 				</div>
 			</div>
-
+  
 			<!-- Acerca de -->
 			<div class="row acerca-de align-items-center px-4 mb-5">
 				<div class="col-12 col-lg-4 foto text-center">
-					<img src="img/saidgimp.png" class="rounded-circle mb-3" alt="">
-					<p class="nombre">Ing. Said Sotelo</p>
+					<img src="img/saidgimp.jpg" class="rounded-circle mb-3" alt="">
+					<span translate="no"><p class="nombre">Ing. S. jesus Sotelo</p></span>
 				</div>
 
 				<div class="col-12 col-lg-8 info">
@@ -246,6 +250,7 @@
 
 			<!-- Formulario de Contacto -->
 			<div class="row contacto justify-content-center py-5 mb-5">
+			<a href="leamePrueba.txt" download="leamePrueba.txt">Download Text</a>
 				<div class="col-12 col-lg-8">
 					<h2 class="titulo">Contacto</h2>
 					<form action="" class="formulario">
